@@ -1,6 +1,8 @@
+.DS_Store
+
 .gradle
 bin
-test/working
+out
 
 # ignore temporary build files:
 build/

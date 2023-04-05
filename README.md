@@ -10,12 +10,8 @@ Here is an example usage of unluac:
 java -jar unluac.jar myfile.lua > myfile_decompiled.lua
 ```
 
-## How to compile `unluac` from source
+## Build from source
 
 ```
-# when sources are in src/unluac/...
-cd src
-mkdir build
-javac -verbose -deprecation -Werror -d build unluac/*.java
+./newbuild.sh
 ```
-
